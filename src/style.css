@@ -1,0 +1,102 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+.pets{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pet{
+    
+    flex-direction: column;
+    
+    gap: 10px;
+    align-content: space-between;
+    
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(192, 235, 221);
+}
+
+.delete{
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(239, 156, 156);
+    color: rgb(237, 28, 28);
+    margin-right: 5px;
+    
+}
+
+.delete:hover{
+    background-color: rgb(243, 146, 113);
+}
+
+.update{
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(142, 172, 241);
+    margin-bottom: 50px;
+    color: rgb(45, 28, 237)
+}
+
+.update:hover{
+    background-color: rgb(111, 138, 228);
+}
+
+.add{
+    margin-top: 20px;
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(125, 234, 141);
+    margin-bottom: 50px;
+    color: rgb(28, 237, 84);
+    width: 300px;
+    height: 50px;
+    
+}
+
+.add:hover{
+    background-color: rgb(154, 232, 147);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray
+}
+
+.formButton{
+    border: none;
+    padding: 10px;
+    background-color: rgb(111, 230, 171);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
